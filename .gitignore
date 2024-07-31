@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#IDE
+.idea/
+
 # Package Files #
 *.jar
 *.war
@@ -22,3 +25,25 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+.mvn/
+target/
+*.iml
+*.iws
+*.classpath
+*.project
+
+# IDE-specific
+# Add patterns for your IDE here, e.g.,
+# IntelliJ IDEA
+# .idea/
+# Eclipse
+# .settings/
+
+# Other common patterns
+# Local configuration
+local.properties
+
+# Log files
+*.log
